@@ -1,0 +1,22 @@
+{
+    "selenium_driver_path": "C:\\Users\\username\\source\\repos\\selenium\\src\\util\\chromedriver\\chromedriver.exe",
+    "account_info": {
+        "singin_id" : "example@sample.com",
+        "password" : "samplepassword",
+        "my_credit_card" : {
+            "card_holder_fam": "",
+            "card_holder_name": "",
+            "no": "",
+            "seckey": "",
+            "exp_month": "",
+            "exp_year": ""
+        }
+    },
+    "pages" : {
+        "root" : "https://www.example.com",
+        "signup_flow_test":{
+            "signup" : "https://www.example.com/signup",
+            "signin" : "https://www.example.com/signin"
+        }
+    }
+}
