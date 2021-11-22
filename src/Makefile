@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 init:
-	mv ./util/sample.json ./util/config.json
-	mv ./myselenium/sample_test_case.py ./myselenium/test_case.py
+	cp ./util/sample.json ./util/config.json
+	cp ./myselenium/sample_test_case.py ./myselenium/test_case.py
 
 download_latest_chromedriver:
 	sudo apt-get install unzip
